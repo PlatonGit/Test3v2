@@ -1,17 +1,14 @@
-from conf import ConnectionConfig
-from controllers import RecipeController
-
-
-
+from menus import MainMenu
 
 
 def main():
-    db_connection = ConnectionConfig()
-    recipe_controller = RecipeController(db_connection)
-
-    recipe_controller.delete_recipe()
+    main_menu = MainMenu()
+    main_menu.display()
 
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print('Goodbye!\n')
 

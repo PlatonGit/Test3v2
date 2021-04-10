@@ -1,0 +1,49 @@
+Main menu:
+[1] Recipes
+[2] Ingredients
+[3] Exit
+
+(1) Recipes:
+        [1] Add a recipy
+        [2] Delete a recipe
+        [3] Back
+
+        Enter the number of the action: <int number>
+
+        (1) Adding recipe:
+                Enter recipy's name: <recipy name>
+                Enter number of ingredients required: <int number>
+                Continue? (y/n): <y/n input>
+
+                Adding required ingredients to a recipe:
+                    [1] ingredient name 1 
+                    [n] ingredient name n
+                    [n2] Finish
+                    [n3] Cancel
+
+                    Enter the number of an ingredient you want to add: <int number> 
+
+        (2) Deleting recipe:
+                [1] recipe name 1
+                [n] recipe name n
+                [n2] Cancel
+                
+                Enter the number of an recipe you want to delete: <int number>
+
+(2) Ingredients:
+        [1] Add an ingredient
+        [2] Delete an ingredient
+        [3] Back
+
+        Enter the number of the action: <int number>
+
+        (1) Adding ingredient:
+                Enter ingredient's name: <ingredient name>
+                Confirm (y/n): <y/n input>
+
+        (2) Deleting ingredient:
+                [1] ingredient name 1
+                [n] ingredient name n
+                [n2] Cancel
+
+                Enter the number of an ingredient you want to delete: <int number>
